@@ -1,0 +1,65 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Skill UP homework lesson 6 meta tags and forms">
+    <meta name="keywords" content="HTML form, HTML meta tag, css">
+    <meta name="author" content="Sirbu Ion">
+    <title>meta forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+   
+</head>
+<body>
+        <h1>Registration form</h1>
+    <form action="https://su-sign-in.free.beeceptor.com" method="POST">
+     
+        <fieldset>
+           <legend>Please complete all the fields</legend>
+           <label for="firstname">First name*</label>
+           <input type="text" name="firstname" id="firstname">
+
+           <label for="lastname">Last name*</label>
+           <input type="text" name="lastname" id="lastname">
+
+           <label for="email">Email*</label>
+           <input type="email" name="email" id="email">
+
+           <label for="pwd">Password*</label>
+           <input type="password" name="pwd" id="pwd">
+
+           <label for="pwd">Confirm Password*</label>
+           <input type="password" name="pwd" id="pwd">
+
+       </fieldset>
+       <br>
+       <label for="country"></label>
+       <select name="region" id="country">
+        <option value="default">Select country</option>
+        <option value="MD">Moldova</option>
+        <option value="USA">United states of America</option>
+        <option value="RO">Rominia</option>
+        <option value="Ru">Rusia</option>
+        <option value="UK">England</option>
+    </select>
+    <br><br>
+   
+    <label for="male" class="left">Male</label>
+    <input type="radio" name="gender" value="male" id="male" class="left" />
+
+    <label for="female" class="left">Female</label>
+    <input type="radio" name="gender" value="female" id="female" class="left" />
+
+    <label for="other" class="left">Other</label>
+    <input type="radio"  name="gender" value="other" id="other" class="left" checked />
+    
+    <textarea name="comments" id="comments" cols="60" rows="20" >
+        Please add your comments
+    </textarea><br><br>
+    <label for="terms">Please accept our terms&conditions</label>
+    <input type="checkbox" name="terms" >
+    <input type="submit" value="Create Account">
+    </form>
+</body>
+</html>
