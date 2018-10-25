@@ -1,0 +1,36 @@
+* {box-sizing: border-box;}
+
+input {
+    display:block;
+    margin:0.5rem;
+   
+}
+.left {
+    float: left;
+    margin: 1.2rem;
+}
+fieldset {
+    width: 14rem;
+    border: 0.15rem ridge red;
+    margin:1rem auto;
+    background-image: linear-gradient(60deg,white, rgba(77, 240, 240, 0.877));
+    
+}
+form {
+    position: relative;
+    left: 30%; 
+    width: 40%;
+    font-style: italic;
+    font-weight: bold;
+    border: 0.1rem ridge black;
+    border-radius:2%;
+    padding-left: 1rem;
+    background-color: rgba(73, 238, 183, 0.164);
+}
+ input:hover {
+     background-color: rgba(118, 235, 163, 0.747);
+ }
+ h1 {
+     margin: 3rem;
+     text-align: center;
+    }
